@@ -17,17 +17,38 @@
 // var sum = a + b;
 // console.log("The sum of a and b is: " + sum);
 
-const sym1= Symbol(4);
-console.log(sym1);
-const sym2= Symbol(4);
-console.log(sym2);
-console.log(sym1 == sym2); // Output: false
-if (sym1 == sym2)
+// const sym1= Symbol(4);
+// console.log(sym1);
+// const sym2= Symbol(4);
+// console.log(sym2);
+// console.log(sym1 == sym2); // Output: false
+// if (sym1 == sym2)
+// {
+//     console.log("true");
+// }
+// else
+//     {
+//     console.log("false"); //because each symbol is unique, even if they have the same description.
+// }
+
+
+
+// var a=10;
+// var b=20;
+// var linebreak="<br>";
+
+let count;
+document.write("starting loop" +"<br/>");
+for(count=0; count<10; count++)
 {
-    console.log("true");
+    document.write("Current count:" + count);
+    document.write("<br/>");
+
 }
-else
-    {
-    console.log("false"); //because each symbol is unique, even if they have the same description.
-}
+document.write("Loop stopped!");
+
+
+
+
+
 

@@ -37,15 +37,42 @@
 // var b=20;
 // var linebreak="<br>";
 
-let count;
-document.write("starting loop" +"<br/>");
-for(count=0; count<10; count++)
-{
-    document.write("Current count:" + count);
-    document.write("<br/>");
 
-}
-document.write("Loop stopped!");
+
+
+
+
+// let count;
+// document.write("starting loop" +"<br/>");
+// for(count=0; count<10; count++)
+// {
+//     document.write("Current count:" + count);
+//     document.write("<br/>");
+
+// }
+// document.write("Loop stopped!");
+
+
+const person={
+    fname:"hrittik",
+    lname:"raushan",
+    age: 25,
+};
+// console.log(person);
+// console.log(person.fname);
+// console.log(person.lname);
+// console.log(person.age);
+
+//or
+
+document.write("First Name: " + person.fname + "<br/>");
+document.write("Last Name: " + person.lname + "<br/>");
+document.write("Age: " + person.age + "<br/>");
+
+
+
+
+
 
 
 

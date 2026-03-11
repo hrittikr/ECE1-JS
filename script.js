@@ -53,11 +53,11 @@
 // document.write("Loop stopped!");
 
 
-const person={
-    fname:"hrittik",
-    lname:"raushan",
-    age: 25,
-};
+// const person={
+//     fname:"hrittik",
+//     lname:"raushan",
+//     age: 25,
+// };
 // console.log(person);
 // console.log(person.fname);
 // console.log(person.lname);
@@ -65,9 +65,24 @@ const person={
 
 //or
 
-document.write("First Name: " + person.fname + "<br/>");
-document.write("Last Name: " + person.lname + "<br/>");
-document.write("Age: " + person.age + "<br/>");
+// document.write("First Name: " + person.fname + "<br/>");
+// document.write("Last Name: " + person.lname + "<br/>");
+// document.write("Age: " + person.age + "<br/>");
+
+//.............................
+
+//conditional operators
+
+var age =20;
+if(age >= 18)
+{
+    console.log("<b>You are eligible to cast the vote.</b>");
+}
+else
+{
+    console.log("<b>You are not eligible to cast the vote.</b>");
+}
+
 
 
 

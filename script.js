@@ -113,9 +113,17 @@
 
 
 // FUNCTIONS
-function myFunction() {
-    alert("Hello Hrittik! Welcome to JavaScript.");
-}
+
+// function myFunction() {
+//     alert("Hello Hrittik! Welcome to JavaScript.");
+// }
+
+
+// ARROW FUNCTION
+var add3 =(a,b) => a + b;
+console.log(add3(5, 10));
+
+
 
 
 

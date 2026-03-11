@@ -83,8 +83,30 @@ else
     console.log("<b>You are not eligible to cast the vote.</b>");
 }
 
+// switch case
 
+var grade = 'A';
+document.write("Entering switch block<br/>");
 
+switch(grade)
+{
+    case 'A':
+        document.write("Good job<br/>");
+        break;
+    case 'B':
+        document.write("Pretty good<br/>");
+        break;
+    case 'C':
+        document.write("Passed<br/>");
+        break;
+        case 'D':
+        document.write("Not so good<br/>");
+        break;
+    default:
+        document.write("Invalid grade<br/>");
+
+}
+document.write("Exiting switch block<br/>");
 
 
 

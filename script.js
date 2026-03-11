@@ -120,12 +120,40 @@
 
 
 // ARROW FUNCTION
-var add3 =(a,b) => a + b;
-console.log(add3(5, 10));
+// var add3 =(a,b) => a + b;
+// console.log(add3(5, 10));
 
 
 
 
+
+
+
+
+
+
+//OBJECTS
+// var person={
+//     name : "Hrittik",
+//     age : 25,
+//     city : "Patna",
+//     isMarried : false,
+//     address : {
+//         street : "Boring Road",
+//         flatno : "101",
+//     }
+// };
+// console.log(person);
+
+var person2 = new Object();
+person2.name = "Hrittik";
+person2.age = 25;
+person2.city = "Patna";
+person2.isMarried = false;
+person2.address = new Object();
+person2.address.street = "Boring Road";
+person2.address.flatno = "101";
+console.log(person2);  
 
 
 

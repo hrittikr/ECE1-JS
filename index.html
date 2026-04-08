@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background-color: whitesmoke;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 100px auto;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
+
+    input, select, button {
+      padding: 10px;
+      margin: 10px;
+      width: 80%;
+    }
+
+    button {
+      background: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: darkgreen;
+    }
+
+    #result {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="box">
+    <h2>Simple Calculator</h2>
+
+    <input type="text" id="nums" >
+
+    <select id="operation">
+      <option value="add">Addition</option>
+      <option value="sub">Subtraction</option>
+      <option value="mul">Multiplication</option>
+      <option value="div">Division</option>
+    </select>
+
+    
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
